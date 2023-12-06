@@ -1,7 +1,8 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  background-image: url('../images/cover-image-dark.png');
+  background-color: var(--bg-color);
+  /* background-image: url('../images/cover-image-dark.png'); */
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -137,9 +138,8 @@
   outline: 1px solid var(--accent-color);
 }
 
-/* 
-.grid-container {
-  max-inline-size: 984px;
+
+/* .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
