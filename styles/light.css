@@ -4,6 +4,11 @@
   переключая тему
 */
 
+
+
 .page.theme_light {
   background-image: url('../images/cover-image-light.png');
+  --bg-color: #000028;
+  --text-color: #353430;
+  --accent-color: #FF8DCB;
 }
