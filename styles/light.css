@@ -7,8 +7,19 @@
 
 
 .page.theme_light {
+  --bg-color: #FFF1F7;
   background-image: url('../images/cover-image-light.png');
-  --bg-color: #000028;
   --text-color: #353430;
   --accent-color: #FF8DCB;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-color: #FFF1F7;
+    background-image: url('../images/cover-image-light.png');
+    --text-color: #353430;
+    --accent-color: #FF8DCB;
+  }
+
 }
