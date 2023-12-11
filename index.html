@@ -44,7 +44,7 @@
       <p class="header__text">Или почему нам так сложно сконцентрироваться, особенно когда очень надо</p>
     </div>
   </header>
-  <main>
+  <main class="main">
     <section class="section">
       <div class="container">
         <h2 class="section-title">Почему сосредоточиться так сложно</h2>
@@ -86,9 +86,9 @@
       </div>
     </section>
     <section class="section">
-      <div class="container">
+      <div class="container container_flex">
         <h2 class="section-title">Что снижает концентрацию внимания?</h2>
-        <ul class="list-container">
+        <ul class="list-container list-container_grid">
           <li>
             <article class="article">
               <h3 class="article__title title-decor">Многозадачность</h3>
@@ -202,46 +202,49 @@
       </div>
     </section>
     <section class="section">
-      <h2 class="title-decor">А можно в картинках?</h2>
-      <ul class="gallerey">
+      <h2 class="gallery-title title-decor">А можно в картинках?</h2>
+      <ul class="gallery">
         <li class="item">
           <picture>
             <source srcset="./images/sunset.avif" type="image/avif">
             <source srcset="./images/sunset.webp" type="image/webp">
-            <img src="./images/sunset.png" loading="lazy" alt="На изображении иллюстрация расвета">
+            <img class="image" src="./images/sunset.png" loading="lazy" alt="На изображении иллюстрация расвета">
           </picture>
         </li>
         <li class="item">
           <picture>
             <source srcset="./images/ice-cream.avif" type="image/avif">
             <source srcset="./images/ice-cream.webp" type="image/webp">
-            <img src="./images/ice-cream.png" loading="lazy" alt="На изображении иллюстрация мороженого">
+            <img class="image" src="./images/ice-cream.png" loading="lazy" alt="На изображении иллюстрация мороженого">
           </picture>
         </li>
         <li class="item">
           <picture>
             <source srcset="./images/tape.avif" type="image/avif">
             <source srcset="./images/tape.webp" type="image/webp">
-            <img src="./images/tape.png" loading="lazy" alt="На изображении иллюстрация касеты">
+            <img class="image" src="./images/tape.png" loading="lazy" alt="На изображении иллюстрация касеты">
           </picture>
         </li>
         <li class="item">
           <picture>
             <source srcset="./images/books.avif" type="image/avif">
             <source srcset="./images/books.webp" type="image/webp">
-            <img src="./images/books.png" loading="lazy" alt="На изображении иллюстрация книг">
+            <img class="image" src="./images/books.png" loading="lazy" alt="На изображении иллюстрация книг">
           </picture>
         </li>
         <li class="item">
           <picture>
             <source srcset="./images/street.avif" type="image/avif">
             <source srcset="./images/street.webp" type="image/webp">
-            <img src="./images/street.png" loading="lazy" alt="На изображении иллюстрация улицы">
+            <img class="image" src="./images/street.png" loading="lazy" alt="На изображении иллюстрация улицы">
           </picture>
         </li>
       </ul>
     </section>
   </main>
+  <footer class="footer decorated-zone">
+    <h2 class="footer__title">focus</h2>
+  </footer>
   <script src="./scripts/script.js"></script>
 </body>
 

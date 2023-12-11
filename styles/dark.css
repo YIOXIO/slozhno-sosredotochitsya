@@ -8,6 +8,9 @@
   --bg-color: #000028;
   --text-color: #F1B2CE;
   --accent-color: #ff0070;
+  --btn-color: #ff0070;
+  --decor-color: #ff0070;
+  --subtitle-color: #ff0070;
   --font-family: IBM Plex Mono, sans-serif;
   --bg-image: url('../images/cover-image-dark.png');
 }
