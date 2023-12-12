@@ -5,6 +5,6 @@
 * HTML 
 * CSS файлы
 * ссылки на "#" 
-* шрифты Raleway и картинка для страниц. 
+* шрифты IBMPlexMono и картинка для страниц. 
 
 https://github.com/YIOXIO/slozhno-sosredotochitsya
