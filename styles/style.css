@@ -16,7 +16,6 @@
   gap: 10px;
   top: 11px;
   right: 19px;
-  z-index: 1;
 }
 
 .decor-element::before {
