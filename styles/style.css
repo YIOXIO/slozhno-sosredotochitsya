@@ -5,17 +5,19 @@
   background-image: var(--bg-image);
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 .decor-element {
-  position: absolute;
   display: flex;
+  position: absolute;
   align-items: center;
   justify-content: center;
   gap: 10px;
   top: 11px;
   right: 19px;
+  z-index: 0;
 }
 
 .decor-element::before {
@@ -24,6 +26,7 @@
   font-size: 18px;
   color: var(--accent-color);
   font-family: var(--font-family);
+  line-height: 25px;
 }
 
 .decor-element::after {
@@ -101,6 +104,7 @@
   cursor: pointer;
   text-transform: lowercase;
   block-size: 23px;
+  appearance: none;
 }
 
 .header__theme-menu-button_active {
@@ -215,7 +219,7 @@
 
 .footer {
   padding: 10px;
-  block-size: 98dvh;
+  block-size: 100vh;
   position: relative;
   display: flex;
   align-items: center;

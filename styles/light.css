@@ -15,6 +15,10 @@
   --subtitle-color: #353430;
 }
 
+.theme_light .decor-element {
+  display: none;
+}
+
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -26,5 +30,9 @@
     --decor-color: #353430;
     --btn-color: #353430;
     --subtitle-color: #353430;
+  }
+
+  .theme_auto .decor-element {
+    display: none;
   }
 }
